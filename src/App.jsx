@@ -46,8 +46,8 @@ function App() {
 
   return (
     <div className="main">
-      <h1>Colegio Técnico María Elvinia</h1>
-      <h2>Programación grado 11º</h2>
+      <h1>VENTAS</h1>
+      <h2>Productos</h2>
       <h3>React con Chart.js</h3>
 
       <button type="button" onClick={handleSubmit}>Consultar</button>
