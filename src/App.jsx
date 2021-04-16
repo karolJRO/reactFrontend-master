@@ -9,7 +9,7 @@ function App() {
   const query = async () => {
     try {
       const res = await fetch(
-        'https://cmebackend.herokuapp.com/mas_vendidos', 
+        'https://cmebackend.herokuapp.com/top_productos', 
         { method: 'POST' })
       const result = await res.json()
 
